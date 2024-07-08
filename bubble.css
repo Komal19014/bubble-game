@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(175, 226, 175);
+}
+.main .pannel{
+    height: 80%;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.main .pannel .menu{
+    height: 15%;
+    width: 100%;
+    background-color: rgb(81, 116, 81); 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main .pannel .menu .elem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.main .pannel .menu .elem h2{
+    color: white;
+}
+.main .pannel .menu .elem .box{
+    background-color: white;
+    color: rgb(59, 116, 59);
+    font-weight: 800;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.main .pannel .bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100% - 15%);
+    padding: 10px 30px;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+.main .pannel .bottom .bubble{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    color: black;
+    background-color: rgb(109, 130, 109);
+    border-radius: 50%;
+}
+.main .pannel .bottom .bubble:hover{
+    cursor: pointer;
+    background-color: green;
+}
